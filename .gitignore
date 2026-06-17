@@ -13,3 +13,6 @@ __pycache__/
 *.bak
 *.bak.old
 _backup/
+
+# 本地数据源登记表（结构化加速层配置，每台机器各填一份，不共享）
+data-sources.md
