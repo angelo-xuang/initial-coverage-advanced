@@ -1,0 +1,15 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Local backups
+*.bak
+*.bak.old
+_backup/
