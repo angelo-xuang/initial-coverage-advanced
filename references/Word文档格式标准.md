@@ -38,8 +38,7 @@ OOXML 层面，每处文字的 `w:rFonts` 三个属性都要设为 `Source Han S
 - 表宽：`tblW` 用 `type="dxa"`，**禁止 `type="auto"`**。每张表只有一个 `tblW`
 - 表头：8.5pt 加粗，底色 #1F4E5F，文字白色 #FFFFFF，居中
 - 正文单元格：8.5pt，行距 1.15
-- **水平对齐**按列统一，不按单元格各设：**首列左对齐，其余列一律居中**
-- **垂直对齐：所有单元格内容一律垂直居中**（OOXML 设 `w:vAlign="center"`）。python-docx 默认是顶对齐（不设 vAlign 就贴着单元格上边），必须**显式**给每个单元格设 `cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER`，否则多行表格会全部上顶、参差难看
+- 对齐按列统一，不按单元格各设：**首列左对齐，其余列一律居中**
 - 单元格边距（DXA）：上 80、下 80、左 120、右 120
 - 表格要有 `tblGrid` 和每列的 `tcW`
 
